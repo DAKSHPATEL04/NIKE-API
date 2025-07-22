@@ -12,7 +12,7 @@ const {
   deleteVariation,
   getProductVariations,
   getProductsByColor,
-  updateStock,
+
   getProductsByCategory,
   getFeaturedProducts,
   getFilteredProducts,
@@ -40,5 +40,5 @@ router.get("/get/featured", getFeaturedProducts);
 router.get("/get/filtered", getFilteredProducts);
 
 // Inventory
-router.put("/update/stock", updateStock);
+// router.put("/update/stock", updaock);
 module.exports = router;
